@@ -5,13 +5,14 @@ This notebook contains primarily two 3D audio apps:
 1. A static sound source positioned in real-time using Jupyter widget sliders
 2. A dynamic sound source flying a *trajectory* with parameters controlled via Jupyter widget sliders
 
-In both cases the basic 3D audio simulation, which makes of `pyaudio_helper` from `Scikit-DSP-Comm` takes the genral form shown below:
+In both cases the basic 3D audio simulation, which makes of `pyaudio_helper` from `Scikit-DSP-Comm` takes the general form shown below:
 
-<img src="figures/3D_Audio_app_general_block_diagram.png" width="75%">
+<img src="../notebooks/figures/3D_Audio_app_general_block_diagram.png" width="75%">
 
 A simplified block diagram of PyAudio *streaming-based* (nonblocking) signal processing is shown below. The package `pyaudio` needs to be installed as the underpining to `Scikit-DSP-Comm`. 
 
 <img src="../notebooks/figures/pyaudio_dsp_IO.png" width="75%">
+<br>
 
 ## Notebook Imports and Configuration
 
@@ -243,7 +244,7 @@ def f(p_theta,p_r,p_y):
 ```
 
 
-<img src="../notebooks/figures/HRIR_Plot_app.png" width="75%" align="left">
+![](../notebooks/figures/HRIR_Plot_app.png)
 
 
 
