@@ -12,7 +12,6 @@ In both cases the basic 3D audio simulation, which makes of `pyaudio_helper` fro
 A simplified block diagram of PyAudio *streaming-based* (nonblocking) signal processing is shown below. The package `pyaudio` needs to be installed as the underpining to `Scikit-DSP-Comm`. 
 
 <img src="../notebooks/figures/pyaudio_dsp_IO.png" width="75%">
-<br>
 
 ## Notebook Imports and Configuration
 
@@ -243,9 +242,10 @@ def f(p_theta,p_r,p_y):
     #savefig('hrir_130_R875.pdf')
 ```
 
+<img src="../notebooks/figures/HRIR_Plot_app.png" width="75%">
 
-![](figures/HRIR_Plot_app.png)
 
+Write three cells of code for a `pyaudio_helper` real-time DSP app:
 
 
 ```python
@@ -347,7 +347,7 @@ DSP_IO.interactive_stream(0,2)
 widgets.HBox([Gain,r_xz_plane,azimuth,y_axis])
 ```
 
-<img src="../notebooks/figures/Static_app.png" width="55%" align="left">
+<img src="../notebooks/figures/Static_app.png" width="55%" >
 
 
 ### Moving the Sound Source Over a Trajectory
@@ -417,7 +417,7 @@ def traj_plot(r_xz,theta_roll,theta_pitch,h_y):
     plt.show()
 ```
 
-<img src="../notebooks/figures/Dynamic_Trajectory_app.png" width="70%" align="left">
+<img src="../notebooks/figures/Dynamic_Trajectory_app.png" width="70%">
 
 
 
