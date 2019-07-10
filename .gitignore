@@ -1,0 +1,5 @@
+# ipynb_checkpoints
+notebooks/.ipynb_checkpoints
+
+# DS store
+.DS_Store
