@@ -9,7 +9,7 @@ In both cases the basic 3D audio simulation, which makes of `pyaudio_helper` fro
 
 <img src="../notebooks/figures/3D_Audio_app_general_block_diagram.png" width="75%">
 
-A simplified block diagram of PyAudio *streaming-based* (nonblocking) signal processing is shown below. The package `pyaudio` needs to be installed as the underpining to `Scikit-DSP-Comm`. 
+A simplified block diagram of PyAudio *streaming-based* (nonblocking) signal processing is shown below. The package `pyaudio` needs to be installed as the underpinning to `Scikit-DSP-Comm`. 
 
 <img src="../notebooks/figures/pyaudio_dsp_IO.png" width="75%">
 
@@ -213,11 +213,11 @@ class ss_mapping2CIPIChrir(object):
 ```
 
 ### Overlay Plot of the Right and Left Ear Impulse Responses versus Source Location
-The next code cell creates an interactive plot of the right and left channel HRIR as a function of the source location in the cylindical coordinates shown below: 
+The next code cell creates an interactive plot of the right and left channel HRIR as a function of the source location in the cylindrical coordinates shown below: 
 
 <img src="../notebooks/figures/3D_Coordinates.png" width="75%">
 
-In this repository two subject HRIR data sets are provided, `subject_200` and `subject_201`. These subjects correspond to simple spherical head models. The explanation of these data sets can be found in the notebook: `CIPIC_read_write.ipynb`. To explore ture human subject HRIR data sets you need to visit the CIPIC site: https://www.ece.ucdavis.edu/cipic/spatial-sound/hrtf-data/. In particular at from this site you can download a [ZIP](https://ucdavis.app.box.com/s/wrxylwv65q4ll69xri89pduhd4w4coqr) file that contains data sets for 45 subjects that were obtaine in an anechoic chamber. A good starting point is the folder `subject_165`, for the manikin KEMAR (https://www.gras.dk/industries/audiology/kemar).
+In this repository two subject HRIR data sets are provided, `subject_200` and `subject_201`. These subjects correspond to simple spherical head models. The explanation of these data sets can be found in the notebook: `CIPIC_read_write.ipynb`. To explore human subject HRIR data sets you need to visit the CIPIC site: https://www.ece.ucdavis.edu/cipic/spatial-sound/hrtf-data/. In particular at from this site you can download a [ZIP](https://ucdavis.app.box.com/s/wrxylwv65q4ll69xri89pduhd4w4coqr) file that contains data sets for 45 subjects that were obtaine in an anechoic chamber. A good starting point is the folder `subject_165`, for the manikin KEMAR (https://www.gras.dk/industries/audiology/kemar).
 
 
 ```python

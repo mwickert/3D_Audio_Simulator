@@ -3,3 +3,6 @@ notebooks/.ipynb_checkpoints
 
 # DS store
 .DS_Store
+
+# Ignore notebook rendered MD files
+#documents/Binaural_Audio.md 
