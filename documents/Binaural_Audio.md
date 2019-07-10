@@ -242,7 +242,8 @@ def f(p_theta,p_r,p_y):
     #savefig('hrir_130_R875.pdf')
 ```
 
-<img src="../notebooks/figures/HRIR_Plot_app.png" width="75%">
+
+<img src="../notebooks/figures/HRIR_Plot_app.png" width="75%" >
 
 
 Write three cells of code for a `pyaudio_helper` real-time DSP app:
@@ -417,7 +418,7 @@ def traj_plot(r_xz,theta_roll,theta_pitch,h_y):
     plt.show()
 ```
 
-<img src="../notebooks/figures/Dynamic_Trajectory_app.png" width="70%">
+<img src="../notebooks/figures/Dynamic_Trajectory_app.png" width="70%" >
 
 
 
