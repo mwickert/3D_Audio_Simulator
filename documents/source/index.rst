@@ -10,7 +10,7 @@ Welcome to 3D Audio Simulator's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-.. include:: ../../README.md
+.. mdinclude:: ../../README.md
 
 Indices and tables
 ==================
