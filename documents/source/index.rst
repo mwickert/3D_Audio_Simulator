@@ -12,6 +12,8 @@ Welcome to 3D Audio Simulator's documentation!
 
 .. mdinclude:: ../../README.md
 
+.. mdinclude:: ../Binaural_Audio.md
+
 Indices and tables
 ==================
 
